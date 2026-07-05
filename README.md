@@ -1,4 +1,3 @@
-# Movie-ticket-booking-system
 # 🎬 Movie Ticket Booking System
 
 A desktop-based Movie Ticket Booking System developed using **Python**, **Tkinter**, and **MySQL**. The application provides a simple graphical interface that allows users to manage movie ticket bookings while performing real-time database operations.
