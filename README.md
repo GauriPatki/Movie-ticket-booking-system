@@ -1,43 +1,42 @@
 # 🎬 Movie Ticket Booking System
 
-A desktop-based Movie Ticket Booking System developed using **Python**, **Tkinter**, and **MySQL**. The application provides a simple graphical interface that allows users to manage movie ticket bookings while performing real-time database operations.
+A desktop-based Movie Ticket Booking System built using **Python**, **Tkinter**, and **MySQL**. The application provides an interactive graphical interface for managing movie ticket bookings while storing all booking information in a MySQL database.
 
 ## Features
 
 - 🎟️ Book movie tickets
+- 📋 View booking details
 - ✏️ Update existing bookings
 - ❌ Delete bookings
-- 📋 View booking records
-- 💾 Real-time synchronization with MySQL database
-- 🖥️ User-friendly Tkinter GUI
+- 💾 Real-time interaction with a MySQL database
+- 🖥️ Simple and user-friendly Tkinter interface
 
-## Tech Stack
+## Technologies Used
 
-- Python
-- Tkinter (GUI)
+- Python 3
+- Tkinter
 - MySQL
 - MySQL Workbench
+- mysql-connector-python
 
-## Project Structure
+## Repository Structure
 
 ```
-Movie-Ticket-Booking-System/
-│── movie.py                # Main application
-│── database.py             # Database connection and queries (if included)
+Movie-ticket-booking-system/
+│── Moviesystem.py      # Main application
+│── tt.py               # Supporting Python file
 │── README.md
 ```
 
-> *The actual file names may differ depending on the uploaded project files.*
-
 ## Prerequisites
 
-Before running the application, install:
+Before running the project, install:
 
 - Python 3.x
 - MySQL Server
 - MySQL Workbench
 
-Required Python package:
+Install the required Python package:
 
 ```bash
 pip install mysql-connector-python
@@ -45,9 +44,10 @@ pip install mysql-connector-python
 
 ## Database Setup
 
-1. Open **MySQL Workbench**.
-2. Create a new database (or use the one expected by the project).
-3. Update the database credentials inside the Python source code if necessary:
+1. Open MySQL Workbench and create a database.
+2. Update the database connection details inside the Python files if required.
+
+Example:
 
 ```python
 host = "localhost"
@@ -56,58 +56,61 @@ password = "your_password"
 database = "movie_booking"
 ```
 
-4. Create the required table(s) according to the SQL queries used in the application.
+3. Create the required tables based on the SQL queries used in the project.
 
-## Running the Project
+## How to Run
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/movie-ticket-booking-system.git
+git clone https://github.com/GauriPatki/Movie-ticket-booking-system.git
 ```
 
-Navigate to the project folder:
+Navigate to the project directory:
 
 ```bash
-cd movie-ticket-booking-system
+cd Movie-ticket-booking-system
 ```
 
-Run the application:
+Run the main application:
 
 ```bash
-python movie.py
+python Moviesystem.py
 ```
 
 ## Functionality
 
-The application allows users to:
+The application enables users to:
 
-- Add new movie ticket bookings
-- Modify booking details
+- Create new movie ticket bookings
+- View existing booking records
+- Update booking information
 - Delete bookings
-- Store and retrieve booking information from a MySQL database
 
-All changes are reflected immediately in the connected database.
+All operations are synchronized with the connected MySQL database, ensuring that changes are reflected immediately.
 
 ## Learning Outcomes
 
-This project was developed to gain practical experience with:
+This project provided hands-on experience with:
 
-- Python desktop application development
-- GUI programming using Tkinter
+- Python GUI development using Tkinter
+- MySQL database integration
 - CRUD (Create, Read, Update, Delete) operations
-- MySQL database connectivity
-- Database-driven application development
+- Desktop application development
+- Database connectivity using Python
 
-## Future Improvements
+## Future Enhancements
 
-- User authentication
-- Seat selection interface
-- Movie scheduling
-- Payment integration
-- Ticket generation as PDF
-- Search and filter bookings
+- Seat selection and seat availability
+- User login and authentication
+- Movie schedule management
+- Online payment integration
+- Booking history
+- Search and filter functionality
 
 ## Author
 
 **Gauri Patki**
+
+Master of Science in Data Science  
+University of Wisconsin–Madison
