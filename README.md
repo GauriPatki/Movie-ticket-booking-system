@@ -24,7 +24,7 @@ A desktop-based Movie Ticket Booking System built using **Python**, **Tkinter**,
 ```
 Movie-ticket-booking-system/
 │── Moviesystem.py      # Main application
-│── tt.py               # Supporting Python file
+│── login.py            # Supporting Python file for basic login window
 │── README.md
 ```
 
